@@ -1,32 +1,62 @@
-# FruitNinjaClone
+# 🍉 Fruit Ninja Clone (LibGDX)
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Bu proje, **LibGDX** kullanılarak geliştirilmiş bir **Fruit Ninja klonu** oyunudur.  
+Oyuncu, ekrana dokunarak veya fare ile sürükleme yaparak meyveleri keser.  
+Her kesilen meyve puan kazandırır, bombalar ise can kaybettirir.  
+Canlar bitince oyun sona erer.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+---
 
-## Platforms
+## 🎮 Özellikler
+- ✅ **Meyve çeşitleri:** Muz, üzüm, elma, limon  
+- ✅ **Ekstra öğeler:** Bombalar 💣, can artıran coinler 🪙  
+- ✅ **Neon Blade efekti:** Oyuncunun parmağını/ faresini takip eden ışıklı iz  
+- ✅ **Parçalanma animasyonu:** Meyveler kesildiğinde ikiye ayrılır  
+- ✅ **Parçacık efektleri:** Kesilen meyveden renkli partiküller çıkar  
+- ✅ **Skor ve Can Sistemi:** Ekranın üst kısmında gösterilir  
+- ✅ **Arka plan müziği:** Döngüsel olarak çalar 🎵  
 
-- `core`: Main module with the application logic shared by all platforms.
-- `android`: Android mobile platform. Needs Android SDK.
+---
 
-## Gradle
+## 📷 Ekran Görüntüleri
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+<p align="center">
+  <img src="screens/image.png" alt="Start" width="400"/>
+  <img src="screens/images.png" alt="Login" width="400"/>
+  <img src="screens/imagess.png" alt="Sign Up" width="400"/>
+</p>
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `android:lint`: performs Android project validation.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `test`: runs unit tests (if any).
+---
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+
+🚀 Kurulum ve Çalıştırma
+- Bu repository’yi klonla:
+  **git clone https://github.com/<kullanici-adi>/fruit-ninja-clone.git**
+- Projeyi Android Studio veya IntelliJ IDEA içinde aç.
+- assets/ klasörüne aşağıdaki dosyaları ekle:
+- backround.jpg (arka plan resmi)
+- banana.png, green-grape.png, red-apple.png, lemon.png (meyveler)
+- bomb.png, coins.png (özel objeler)
+- music.mp3 (arka plan müziği)
+- robotobold.ttf (font dosyası)
+
+**Projeyi çalıştır ve oyunun tadını çıkar 🎮**
+
+---
+
+## - **Demo GIF**
+<p align="center">
+  <img src="screens/fruitgif.gif" width="500"/>
+</p>
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+**LibGDX**
+ - Java tabanlı oyun geliştirme framework’ü
+
+**Java**
+- Android Studio / IntelliJ IDEA
+  
+  ---
